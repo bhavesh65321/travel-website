@@ -367,3 +367,20 @@ a:hover
 {
     color:#263238; 
 }
+
+/* about us me contact button */
+.lastone
+{
+    border:2px solid rgb(196, 51, 51);
+}
+.lastone .contact
+{
+    float:right;
+    display: inline;
+}
+.lastone::after
+{
+    content:'';
+    display: block;
+    clear:both; 
+}
