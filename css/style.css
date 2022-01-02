@@ -273,3 +273,16 @@ a:hover
 {
     background-color: rgb(196, 51, 51);
 }
+/* ############footer style ######### */
+.footer
+{
+    padding-top: 4rem;
+    background-color: #1e2c33;
+    padding-bottom: 2rem;
+    text-align: center;
+    color:#fff;
+}
+.social-media-icons i
+{
+    margin:1.5rem;
+}
