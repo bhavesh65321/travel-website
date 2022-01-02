@@ -276,9 +276,9 @@ a:hover
 /* ############footer style ######### */
 .footer
 {
-    padding-top: 4rem;
+    padding-top: 1rem;
     background-color: #1e2c33;
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
     text-align: center;
     color:#fff;
 }
