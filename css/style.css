@@ -77,6 +77,14 @@ h1,h2,h3{
     background-color:rgb(219, 54, 54);
     border-radius: 10em;
 }
+.seconadry-btn
+{
+    background:#fff;
+    color:#e63946;
+    border:2px solid #e63946;
+    border-radius: 1.5em;
+
+}
 
 /* #####utilityclass### */
 body
@@ -200,15 +208,15 @@ a:link
     height:100%;
     object-fit: cover;
 }
-.text-box a
+ .text-box a
 {
-    background: rgb(219, 54, 54);
+    /* background: rgb(219, 54, 54);
     text-decoration-color: white;
-    border-radius:100px;
-    padding:1.5% 3%;
+    border-radius:100px; */
+    padding:1% 2%;
     margin-left: 5%;
-    margin-top: 5rem;
-}
+    margin-top: 5em;
+} 
 .text-box h2
 {
     margin-left: 3%;
