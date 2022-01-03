@@ -371,12 +371,30 @@ a:hover
 /* about us me contact button */
 .lastone
 {
-    border:2px solid rgb(196, 51, 51);
+    /* border:2px solid rgb(196, 51, 51); */
+    /* background: linear-gradient(rgb(179, 39, 39),rgb(185, 87, 87)); */
+    background-image: linear-gradient(to left,rgb(150, 27, 27), rgb(114, 81, 81));
+    display: block;
+    margin-top: 2em;
+    box-shadow: 5px 5px 20px rgba(43, 33, 33, 0.096);
+    /* float: left; */
 }
-.lastone .contact
+.lastone .lastone-one
 {
-    float:right;
-    display: inline;
+    float:left;
+    margin-top: 1em;
+    width:60%
+}
+.lastone .lastone-two
+{
+    float:right; 
+    border:3px solid white;
+    padding:1em 3em 1em 3em ;
+    margin:1em 2em 1em 0;
+    /* background: lightcoral; */
+    text-transform: uppercase;
+    text-align: center;
+    width:20%;
 }
 .lastone::after
 {
